@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Editor</title>
+
+    <script src="jquery-1.7.2.js" type="text/javascript" language="javascript"></script>
+
+    <link href="styles/doc.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/buttons.css" rel="stylesheet" type="text/css"/>
+
+    <script src="CodeMirror-2.23/lib/codemirror.js"></script>
+    <script src="CodeMirror-2.23/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="CodeMirror-2.23/lib/codemirror.css">
+    <link rel="stylesheet" href="CodeMirror-2.23/theme/night.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="controlPanel">
+        <button id="lol" class="button black">lol</button>
+        <ul id="container">
+            <li id="run"><a href="#" class="button black">Run!</a></li>
+        </ul>
+    </div>
+
+    <div class="editableContent">
+        <div id="editor">function foo(items) {
+            var i;
+            for (i = 0; i &lt; items.length; i++) {
+            alert("Ace Rocks " + items[i]);
+            }
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+//        var editor = ace.edit("editor");
+//        editor.setTheme("ace/theme/twilight");
+//        editor.getSession().setMode("ace/mode/javascript");
+//        ace.loadScript('/Users/tmshv/Dropbox/Dev/MyAS/Vaccum/src/ru/gotoandstop/vacuum/core/Vertex.as');
+
+        var code = CodeMirror(document.getElementById('editor'), {
+            lineNumbers: true,
+            mode:  "javascript",
+            theme: 'night'
+        });
+
+        $.get('http://c9.io/tmshv/lol/workspace/samples/jquery.html', function(data){
+            code.setValue(data);
+        });
+
+        code.setValue("function  myScript(){return 100;}\n");
+    });
+</script>
+</body>
+</html>

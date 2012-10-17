@@ -1,0 +1,26 @@
+{"ts":1347099827975,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"console.log(process);"]],"start1":0,"start2":0,"length1":0,"length2":21}]],"length":21}
+{"ts":1347100407622,"patch":[[{"diffs":[[0,"rocess);"],[1,"\n"]],"start1":13,"start2":13,"length1":8,"length2":9}]],"length":22,"saved":false}
+{"ts":1347100460348,"patch":[[{"diffs":[[0,"console"],[1,"  "],[0,".log(pro"]],"start1":0,"start2":0,"length1":15,"length2":17}]],"length":24,"saved":false}
+{"ts":1347100462076,"patch":[[{"diffs":[[0,"onsole  "],[1,"      "],[0,".log(pro"]],"start1":1,"start2":1,"length1":16,"length2":22}]],"length":30,"saved":false}
+{"ts":1347100465100,"patch":[[{"diffs":[[0,"nsol"],[-1,"e        "],[0,".log"]],"start1":2,"start2":2,"length1":17,"length2":8}]],"length":21,"saved":false}
+{"ts":1347100467102,"patch":[[{"diffs":[[0,"consol"],[1,"e"],[0,".log(pro"]],"start1":0,"start2":0,"length1":14,"length2":15}]],"length":22,"saved":false}
+{"ts":1347100511619,"patch":[[{"diffs":[[1,"\n"],[0,"console."]],"start1":0,"start2":0,"length1":8,"length2":9},{"diffs":[[0,"ocess);\n"],[1,"\n"]],"start1":15,"start2":15,"length1":8,"length2":9}]],"length":24,"saved":false}
+{"ts":1347100512348,"patch":[[{"diffs":[[1,"vq"],[0,"\nconsole"]],"start1":0,"start2":0,"length1":8,"length2":10}]],"length":26,"saved":false}
+{"ts":1347100513570,"patch":[[{"diffs":[[0,"v"],[-1,"q"],[1,"ar "],[0,"\ncon"]],"start1":0,"start2":0,"length1":6,"length2":8}]],"length":28,"saved":false}
+{"ts":1347100514429,"patch":[[{"diffs":[[0,"var "],[1,"r"],[0,"\nconsole"]],"start1":0,"start2":0,"length1":12,"length2":13}]],"length":29,"saved":false}
+{"ts":1347100515633,"patch":[[{"diffs":[[0,"var "],[-1,"r"],[1,"f"],[0,"\nconsole"]],"start1":0,"start2":0,"length1":13,"length2":13}]],"length":29,"saved":false}
+{"ts":1347100517779,"patch":[[{"diffs":[[0,"var f"],[1,"s = re"],[0,"\nconsole"]],"start1":0,"start2":0,"length1":13,"length2":19}]],"length":35,"saved":false}
+{"ts":1347100518633,"patch":[[{"diffs":[[0," fs = re"],[1,"quire(\"fs\")"],[0,"\nconsole"]],"start1":3,"start2":3,"length1":16,"length2":27}]],"length":46,"saved":false}
+{"ts":1347100519402,"patch":[[{"diffs":[[0,"re(\"fs\")"],[1,";"],[0,"\nconsole"]],"start1":14,"start2":14,"length1":16,"length2":17}]],"length":47,"saved":false}
+{"ts":1347100521380,"patch":[[{"diffs":[[0,"(\"fs\");\n"],[1,"\n"],[0,"console."]],"start1":16,"start2":16,"length1":16,"length2":17}]],"length":48,"saved":false}
+{"ts":1347100523043,"patch":[[{"diffs":[[0,"(\"fs\");\n"],[1,"var http"],[0,"\nconsole"]],"start1":16,"start2":16,"length1":16,"length2":24}]],"length":56,"saved":false}
+{"ts":1347100525135,"patch":[[{"diffs":[[0,"var http"],[1," = "],[0,"\nconsole"]],"start1":24,"start2":24,"length1":16,"length2":19}]],"length":59,"saved":false}
+{"ts":1347100526260,"patch":[[{"diffs":[[0," http = "],[1,"re"],[0,"\nconsole"]],"start1":27,"start2":27,"length1":16,"length2":18}]],"length":61,"saved":false}
+{"ts":1347100527272,"patch":[[{"diffs":[[0,"ttp = re"],[1,"quire(\"http\")"],[0,"\nconsole"]],"start1":29,"start2":29,"length1":16,"length2":29}]],"length":74,"saved":false}
+{"ts":1347100529041,"patch":[[{"diffs":[[0,"(\"http\")"],[1,";"],[0,"\nconsole"]],"start1":42,"start2":42,"length1":16,"length2":17}]],"length":75,"saved":false}
+{"ts":1347100531940,"patch":[[{"diffs":[[0,"http\");\n"],[1,"\n"],[0,"console."]],"start1":44,"start2":44,"length1":16,"length2":17}]],"length":76,"saved":false}
+{"ts":1347100534963,"patch":[[{"diffs":[[0,"ocess);\n"],[1,"fs.re"],[0,"\n"]],"start1":67,"start2":67,"length1":9,"length2":14}]],"length":81,"saved":false}
+{"ts":1347100539458,"patch":[[{"diffs":[[0,");\nfs.re"],[1,"addirSync()"],[0,"\n"]],"start1":72,"start2":72,"length1":9,"length2":20}]],"length":92,"saved":false}
+{"ts":1347100541106,"patch":[[{"diffs":[[0,"dirSync("],[1,"''"],[0,")\n"]],"start1":82,"start2":82,"length1":10,"length2":12}]],"length":94,"saved":false}
+{"ts":1347100543054,"patch":[[{"diffs":[[0,"dirSync("],[-1,"'"],[1,"\"/\""],[0,"')\n"]],"start1":82,"start2":82,"length1":12,"length2":14}]],"length":96,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1350484824441,"patch":[[{"diffs":[[-1,"var fs = require(\"fs\");\nvar http = require(\"http\");\n\nconsole.log(process);\nfs.readdirSync(\"/\"')\n"],[1,"console.log(process.version);"]],"start1":0,"start2":0,"length1":96,"length2":29}]],"length":29,"saved":false}

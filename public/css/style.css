@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Tenor+Sans&subset=latin,cyrillic);
+
+body{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#mainmap{
+    width : 100%;
+}
+
+#topmenu{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+#topmenu #user{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#topmenu #user:hover{
+    background-color: rgb(188, 188, 188);    
+    border: 1px solid gray;
+}
+
+.window{
+    position: fixed;   
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40,40,40,0.5);
+    z-index: 9999;
+    color: rgb(80,80,80);
+    display: none;
+}
+
+.window .back{
+   position: absolute;   
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%; 
+   z-index: 0;
+}
+
+.window .wrap{
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -200px -250px;
+    background-color: white;
+    border: 1px solid silver;
+    padding: 10px;
+    z-index: 1;
+}
+
+.window .wrap .header{
+    font-size: 25px;
+    color: rgb(40,40,40);
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.window .wrap .header .active{    
+    color: rgb(40,90,40);   
+    background-color: rgb(220,200,200);
+}
+
+.window .wrap .header div{
+    display: inline;
+    cursor: pointer;
+    background-color: rgb(230,240,240);
+    padding: 2px;
+}
+
+.window .wrap .header div:hover{
+   color: rgb(40,40,90);  
+   background-color: rgb(230,230,230);
+}
+
+.window .wrap .msg{
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: 10px;
+    width: 480px;
+    background-color: rgb(220,100,100);
+    padding: 10px;
+    color: black;
+}
+
+.window .wrap .line{    
+    margin-top: 10px;
+    margin-left: 50px;   
+}
+
+.window .wrap .line .label{   
+    font-size: 20px; 
+}
+
+.window .wrap .line .edit input[type='text'],
+.window .wrap .line .edit input[type='email'],
+.window .wrap .line .edit input[type='password']{       
+    width: 400px;
+    height: 25px;
+    margin-top: 5px;
+    border: 1px solid silver;
+    font-size: 20px;
+}
+
+.window .wrap .line .edit input[type='text'],
+.window .wrap .line .edit input[type='email'],
+.window .wrap .line .edit input[type='password']:focus{ 
+    border: 1px solid gray;
+}
+
+.window .wrap .line .edit .error{ 
+    border-color: red;   
+}
+
+.window .wrap .buttons{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(240,240,240); 
+    color: rgb(40,40,40);
+}
+
+.window .wrap .buttons .button{    
+    float: right;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.window .wrap .buttons .button:hover{
+    background-color: rgb(188, 188, 188);    
+    border: 1px solid gray;
+}
